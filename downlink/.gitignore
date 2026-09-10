@@ -1,0 +1,18 @@
+# Scope captures and the edge lists derived from them: data, not source.
+# The raw waveform files are 100-250 MB each and stay outside the repo.
+*.csv
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# macOS finder droppings
+.DS_Store
+
+# archive token, never committed
+.zenodo-token
+
+# generated: golden frames rebuild from the *_50k.txt specs,
+# decoded bit streams from the captures
+golden_*.txt
+bits_*.txt

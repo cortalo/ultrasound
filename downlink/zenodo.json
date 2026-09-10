@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Raw oscilloscope captures for an ultrasound FSK downlink bit-error-rate measurement",
+    "description": "<p>Fifteen oscilloscope captures of a PLL phase-rotator output carrying a 2-FSK downlink, recorded at symbol rates from 50 to 80 kbaud. Each capture holds the reference clock (SYN), the supply (VP) and the two phase-rotator pulse channels (FREQ_UP_2, FREQ_DN_2) sampled at 20 ns.</p><p>These are the raw data behind the bit-error-rate results in the accompanying paper. The decoder that turns them into bit streams, the transmitted golden frames and the decoded bit streams are in the software repository at https://github.com/cortalo/ultrasound, which also carries a SHA256SUMS manifest covering the uncompressed captures and a get_captures.sh that downloads this record and verifies it.</p><p>Files are xz-compressed CSV. Decompress with <code>xz -d *.csv.xz</code>, then check against SHA256SUMS in the repository.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "creators": [
+      {
+        "name": "He, Long",
+        "affiliation": "ETH Zurich"
+      }
+    ],
+    "keywords": [
+      "ultrasound",
+      "frequency-shift keying",
+      "bit error rate",
+      "phase-locked loop",
+      "implantable device",
+      "wireless downlink"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/cortalo/ultrasound",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "prereserve_doi": true
+  }
+}
