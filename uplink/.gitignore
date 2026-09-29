@@ -1,0 +1,10 @@
+# Raw decisions and scope waveforms: 350 MB, archived on Zenodo instead.
+# get_captures.sh fetches them and checks them against SHA256SUMS.
+BER_bit_decisions_part_*.csv
+scope_ch4_*_chunk.csv
+
+# macOS finder droppings
+.DS_Store
+
+# archive token, never committed
+.zenodo-token

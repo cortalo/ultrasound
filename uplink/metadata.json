@@ -1,0 +1,17 @@
+{
+  "CapturedAt": "2026-09-24 00:24:10 *",
+  "ScopeIdentity": "AGILENT TECHNOLOGIES,MSO-X 2024A,MY55440609,02.65.2021030741",
+  "GeneratorIdentity": "Agilent Technologies,33622A,MY59006186,A.02.03-3.15-03-64-02",
+  "ScopeChannel": "CH4",
+  "CarrierFrequency_Hz": 431800,
+  "CyclesPerBit": 5,
+  "BitsPerGroup": 4,
+  "EnvelopeDuty_percent": 50,
+  "Logical1_Vpp": 5,
+  "Logical0_Vpp": 2.5,
+  "PRBS": "PRBS15 x^15+x^14+1",
+  "PRBSSeed": "0x7FFF",
+  "PRBSPatternBits": 1024,
+  "TrainingBitsExcludedPerChunk": 1024,
+  "ChunkTimeRange_s": 0.2
+}

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "upload_type": "dataset",
+    "title": "Raw bit decisions and oscilloscope captures for an ultrasound backscatter uplink bit-error-rate measurement",
+    "description": "<p>Ten million bit decisions from an ultrasound backscatter uplink carrying PRBS15 amplitude-shift keying (5 Vpp for a one, 2.5 Vpp for a zero) on a 431.8 kHz carrier at five cycles per bit, recorded on an MSO-X 2024A over 1315 acquisition chunks. Each of the 100 parts lists the decision index, acquisition chunk, envelope RMS, expected bit, decoded bit and error flag. Two raw scope captures of the received channel, the first and the last chunk, are included at 2.5 MS/s.</p><p>These are the raw data behind the uplink bit-error-rate result in the accompanying paper: 6 errors in 10<sup>7</sup> bits. The per-chunk and overall summaries, the acquisition metadata and a SHA256SUMS manifest covering the uncompressed files are in the software repository at https://github.com/cortalo/ultrasound, together with a get_captures.sh that downloads this record and verifies it.</p><p>Files are xz-compressed CSV; the 100 parts are bundled in one tarball because a record holds at most 100 files. Unpack with <code>tar -xJf BER_bit_decisions.tar.xz</code> and <code>xz -d scope_ch4_*.csv.xz</code>, then check against SHA256SUMS in the repository.</p>",
+    "access_right": "open",
+    "license": "cc-by-4.0",
+    "creators": [
+      {
+        "name": "He, Long",
+        "affiliation": "ETH Zurich"
+      }
+    ],
+    "keywords": [
+      "ultrasound",
+      "backscatter",
+      "amplitude-shift keying",
+      "bit error rate",
+      "implantable device",
+      "wireless uplink"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://github.com/cortalo/ultrasound",
+        "relation": "isSupplementTo",
+        "scheme": "url"
+      }
+    ],
+    "prereserve_doi": true
+  }
+}
